@@ -5,3 +5,4 @@ const person = {
       console.log('Hi, I am ' + this.name);
     }
   };
+  const copiedPerson = { ...person };
