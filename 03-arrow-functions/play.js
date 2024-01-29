@@ -18,12 +18,15 @@ const summarizeUser = (userName, userAge, userHasHobby) => {
 
 
 
-const add = (a, b) => {
+const addbig = (a, b) => {
   return a + b;
 };
 
-// const add = (a, b) => a + b;
- console.log(add(1, 2));
+ const addsmal = (a, b) => a + b;
+
+ console.log(addbig(1, 2));
+ console.log("********************************");
+ console.log(addsmal(1, 2));
 
 
 // const addOne = a => a + 1;
