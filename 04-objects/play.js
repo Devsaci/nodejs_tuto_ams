@@ -1,9 +1,9 @@
 
-const name  = 'toto :)';
+//const name  = 'toto :)';
 const person = {
   name: 'Phillipe',
   age: 29,
-  greet() {
+  greet :  () => {
     console.log('Hi, I am ' + this.name);
   }
 };
