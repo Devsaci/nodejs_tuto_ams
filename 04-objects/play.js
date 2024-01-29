@@ -1,5 +1,5 @@
 
-let  name  = 'toto :)';
+const  name  = 'toto :)';
 const person = {
   name: 'Phillipe',
   age: 29,
