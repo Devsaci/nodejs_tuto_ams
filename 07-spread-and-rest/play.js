@@ -6,3 +6,4 @@ const person = {
     }
   };
   const copiedPerson = { ...person };
+  console.log(copiedPerson);
