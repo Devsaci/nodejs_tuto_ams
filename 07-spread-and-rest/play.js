@@ -6,4 +6,4 @@ const person = {
     }
   };
   const copiedPerson = { ...person };
-  console.log(copiedPerson);
+  console.log(copiedPerson);  // {name: 'Max', age: 29, greet: ƒ}
