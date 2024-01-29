@@ -3,7 +3,7 @@ const  name  = 'toto :)';
 const person = {
   name: 'Phillipe',
   age: 29,
-  greet :  () => {
+  greet :  function() {
     console.log('Hi, I am ' + this.name);
   }
 };
